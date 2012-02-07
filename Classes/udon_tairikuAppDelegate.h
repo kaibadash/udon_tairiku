@@ -11,7 +11,7 @@
 
 #define IS_IPAD ([[UIDevice currentDevice].model isEqualToString:@"iPad"] \
 					|| [[UIDevice currentDevice].model isEqualToString:@"iPad Simulator"])
-
+#define IS_IOS3 ([[UIDevice currentDevice].systemVersion hasPrefix:@"3"])
 @class udon_tairikuViewController;
 
 @interface udon_tairikuAppDelegate : NSObject <UIApplicationDelegate> {
