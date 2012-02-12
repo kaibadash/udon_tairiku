@@ -69,8 +69,6 @@
             [tv becomeFirstResponder];
         }
     }
-
-        tv.backgroundColor = [UIColor greenColor];
 }
 
 - (void)viewDidLoad {
